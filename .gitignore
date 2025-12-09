@@ -32,8 +32,8 @@ wheels/
 # VS Code
 .vscode/
 
-# Models - Don't commit large model files
-models/*.h5
+# Models - Tracked with Git LFS (don't ignore)
+# models/*.h5  # Commented out - using Git LFS instead
 models/*.hdf5
 models/*.h5.bak
 
